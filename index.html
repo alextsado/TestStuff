@@ -127,8 +127,8 @@
                                                                  var fileTransfer = new FileTransfer();
                                                                  fileEntry.remove();
                                                                  fileTransfer.download(
-                                                                                       "http://www.w3.org/2011/web-apps-ws/papers/Nitobi.pdf",
-                                                                                       sPath + "theFile.pdf",
+                                                                                       'https://api.soundcloud.com/tracks/108623436/download?client_id=707228f02dd69922dbac5f0bb309a07c',
+                                                                                       sPath + "eg.mp3",
                                                                                        function(theFile) {
                                                                                        console.log("download complete: " + theFile.toURI());
                                                                                        showLink(theFile.toURI());
